@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Formularios</title>
+</head>
+<body>
+  <form action="php/datos.php" method="post">
+    <label for="texto">Soy una etiqueta</label>
+    <input type="text" id="texto" name="texto" placeholder="Nombre:">
+    <br>
+
+    <label for="correo">Correo</label>
+    <input type="email" id="correo" name="telefono">
+    <br>
+
+    <label for="telefono">Teléfono</label>
+    <input type="tel" id="telefono" name="telefono">
+    <br>
+    
+    <label for="mensaje">Mensaje</label>
+    <textarea name="textarea" id="mensaje"></textarea>
+    <br>
+
+    <label for="contra">Contraseña</label>
+    <input type="password" id="contra" name="contra">
+    <br>
+
+    <label for="fecha">Fecha</label>
+    <input type="date" id="fecha" name="fecha">
+    <br>
+
+    <label for="hora">Hora</label>
+    <input type="time" id="hora" name="hora">
+    <br>
+
+    <input type="checkbox" id="terminos" name="terminos" value="true">
+    <label for="terminos">Terminos y Condiciones</label>
+    <br>
+
+    <!-- Radio solo -->
+    <input type="radio" id="radio" name="radio" value="radio">
+    <label for="radio">Radio</label>
+    <br>
+
+    <!-- Grupo de Radios -->
+    <input type="radio" id="hombre" name="genero" value="hombre">
+    <label for="hombre">Hombre</label>
+    <br>
+
+    <input type="radio" id="mujer" name="genero" value="mujer">
+    <label for="mujer">Mujer</label>
+    <br>
+
+    <label for="numero">Cantidad</label>
+    <input type="number" id="numero" name="cantidad">
+    <br>
+
+    <select name="select">
+      <option value="Carro">Carro</option>
+      <option value="Moto">Moto</option>
+      <option value="Avión">Avión</option>
+      <option value="Ferri">Ferri</option>
+    </select>
+    <select name="select">
+      <optgroup label="Terrestres">
+          <option value="Carro">Carro</option>
+          <option value="Moto">Moto</option>
+      </optgroup>
+      <optgroup label="Aereos">
+          <option value="Avión">Avión</option>
+      </optgroup>
+      <optgroup label="Acuaticos">
+          <option value="Ferri">Ferri</option>
+      </optgroup>
+    </select>
+    <br>
+
+    <input type="file" name="archivo">
+    <br>
+
+    <input type="submit">
+    <input type="submit" value="Ingresar">
+    <input type="image" src="./recursos/img/boton.png">
+    <button>Enviar</button>
+  </form>
+</body>
+</html>

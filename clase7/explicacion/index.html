@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Video</title>
+</head>
+<body>
+  <!--
+    Tenemos atributos como lo son:
+      - controls: Controles para el control del audio.
+      - loop:     En cuanto termina de reproducir la musica comienza otra vez.
+      - autoplay: En cuanto carga la pista de audio la comienza a reproducir.
+  -->
+  <video src="./video/video.mp4" controls width="500"></video>
+
+  <video controls width="500" poster="./img/mundo.png">
+    <source src="./video/video.ogg" type="video/ogg">
+    <source src="./video/video.mp4" type="video/mp4">
+    <p>Tu navegador no implementa el elemento <code>video</code></p>
+  </video>
+</body>
+</html>

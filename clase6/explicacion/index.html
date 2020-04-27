@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Audio</title>
+</head>
+<body>
+  <!--
+    Tenemos atributos como lo son:
+      - controls: Controles para el control del audio.
+      - loop:     En cuanto termina de reproducir la musica comienza otra vez.
+      - autoplay: En cuanto carga la pista de audio la comienza a reproducir.
+  -->
+  <audio src="./audio/audio.mp3" controls></audio>
+
+  <audio  controls>
+    <source src="./audio/audio.ogg" type="audio/ogg">
+    <source src="./audio/audio.mp3" type="audio/mp3">
+    <p>Tu navegador no implementa el elemento <code>audio</code></p>
+  </audio>
+</body>
+</html>
