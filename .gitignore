@@ -1,6 +1,10 @@
 notes/
-
 clase*/explicacion/**/*.jpg
+clase*/explicacion/**/*.jpeg
+clase*/explicacion/**/*.png
+clase*/explicacion/**/*.mp3
+clase*/explicacion/**/*.mp4
+
 prepros.config
 prepros-6.config
 boostnote.json
